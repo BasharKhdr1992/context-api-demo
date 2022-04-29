@@ -1,0 +1,17 @@
+.movies {
+  width: 50em;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2), 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.movie {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 1px solid lightgray;
+}
+.movie:last-child {
+  border-bottom: none;
+}
